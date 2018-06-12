@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/quizback"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    >
+    <at.markushi.ui.CircleButton
+        android:id="@+id/quiz"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/quiz"
+        app:cb_color="@color/colorPrimary"
+        app:cb_pressedRingWidth="8dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Quiz"
+        android:layout_gravity="center"
+        android:textColor="#d62a2a"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/puzzle"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+       android:layout_marginTop="18dp"
+        android:src="@drawable/puzzle"
+        app:cb_color="@color/colorPrimary"
+        app:cb_pressedRingWidth="8dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="puzzle"
+        android:textColor="#d62a2a"
+        android:textSize="20dp"
+       android:layout_gravity="center"
+        android:textStyle="bold" />
+
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/record"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/ic_question_answer_black_24dp"
+        app:cb_color="#d62a2a"
+        android:layout_gravity="center"
+        app:cb_pressedRingWidth="8dp" />
+
+    <TextView
+        android:id="@+id/rec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="survey"
+        android:layout_gravity="center"
+        android:textColor="#d62a2a"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/quizdata"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+       android:layout_marginTop="18dp"
+        android:src="@drawable/ic_save_black_24dp"
+        app:cb_color="#d62a2a"
+        android:layout_gravity="center"
+        app:cb_pressedRingWidth="8dp" />
+
+    <TextView
+        android:id="@+id/quizd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="5dp"
+        android:text="quiz records"
+        android:layout_gravity="center"
+        android:textColor="#d62a2a"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <at.markushi.ui.CircleButton
+        android:id="@+id/surveydata"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/ic_save_black_24dp"
+        app:cb_color="#d62a2a"
+        android:layout_gravity="center"
+        app:cb_pressedRingWidth="8dp" />
+
+    <TextView
+        android:id="@+id/surveyd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="survey records"
+        android:layout_gravity="center"
+        android:textColor="#d62a2a"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <at.markushi.ui.CircleButton
+        android:id="@+id/exportcsv"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/ic_insert_drive_file_black_24dp"
+        app:cb_color="#d62a2a"
+        android:layout_gravity="center"
+        app:cb_pressedRingWidth="8dp" />
+
+    <TextView
+        android:id="@+id/csv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="CSV"
+        android:layout_gravity="center"
+        android:textColor="#d62a2a"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+</LinearLayout>
+</android.support.v4.widget.NestedScrollView>

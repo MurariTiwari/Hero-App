@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/quizback"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/question2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="18dp"
+        android:text=" 2. मॉडल बताएं ?"
+        android:textColor="#BC1c1c"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:layout_marginTop="10dp"
+        android:id="@+id/radioGroup2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/question2">
+
+        <RadioButton
+            android:id="@+id/quiz2option1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:checked="true"
+            android:text="A. माइस्ट्रो एज"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:background="#BC1C1C"/>
+
+        <RadioButton
+            android:layout_marginTop="10dp"
+            android:id="@+id/quiz2option2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="B. डुएट "
+            android:textSize="15dp"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+
+            android:background="#BC1C1C"/>
+        <RadioButton
+            android:layout_marginTop="10dp"
+            android:id="@+id/quiz2option3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="B. प्लेज़र  "
+            android:textColor="#FFF"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:background="#BC1C1C"/>
+
+
+
+    </RadioGroup>
+
+    <ImageButton
+        android:id="@+id/button2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/radioGroup1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/next1"
+        android:gravity="center"
+        android:onClick="btClick"
+        android:text="Next" />
+
+
+</RelativeLayout>

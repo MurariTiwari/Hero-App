@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/quizback"
+    tools:context=".Question4">
+
+
+    <TextView
+        android:id="@+id/question4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="11dp"
+        android:text=" 4.  क्या आप हीरो के स्कूटर अपने किसी करीबी के लिए सिफारिश करना चाहते हैं?"
+        android:textColor="#BC1c1c"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+
+        <RadioGroup
+            android:layout_marginTop="140dp"
+            android:id="@+id/radioGroup4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/question3">
+
+            <RadioButton
+                android:id="@+id/quiz4option1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:checked="true"
+                android:text="A. हाँ"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:background="#BC1C1C"/>
+
+            <RadioButton
+                android:layout_marginTop="10dp"
+                android:id="@+id/quiz4option2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:checked="false"
+                android:text="B. नहीं "
+                android:textSize="15dp"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:background="#BC1C1C"/>
+
+        </RadioGroup>
+
+        <ImageButton
+            android:id="@+id/button4"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="300dp"
+            android:background="@drawable/next1"
+            android:gravity="center"
+            android:text="Next" />
+
+
+    </RelativeLayout>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/quizback"
+
+    tools:context="com.tiwarithetiger11gmail.quizapp.Survey3">
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:id="@+id/question2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="18dp"
+                android:text="Which brand in Scooters do you recall as a buying preference?"
+                android:textColor="#BC1c1c"
+                android:textSize="30dp"
+                android:layout_margin="2dp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_marginTop="10dp"
+                android:id="@+id/radioGroup2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/question2">
+
+                <RadioButton
+                    android:id="@+id/quiz2option1"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:checked="true"
+                    android:text="a. Activa"
+                    android:textColor="#FFF"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:background="#BC1C1C"/>
+
+                <RadioButton
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/quiz2option2"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="b. Fascino"
+                    android:textSize="15dp"
+                    android:textColor="#FFF"
+                    android:textStyle="bold"
+
+                    android:background="#BC1C1C"/>
+                <RadioButton
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/quiz2option3"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="c. Maestro Edge"
+                    android:textSize="15dp"
+                    android:textColor="#FFF"
+                    android:textStyle="bold"
+
+                    android:background="#BC1C1C"/>
+
+                <RadioButton
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/quiz2option4"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="d. Ray/Rayz"
+                    android:textSize="15dp"
+                    android:textColor="#FFF"
+                    android:textStyle="bold"
+
+                    android:background="#BC1C1C"/>
+
+                <RadioButton
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/quiz2option5"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="e. Duet"
+                    android:textSize="15dp"
+                    android:textColor="#FFF"
+                    android:textStyle="bold"
+
+                    android:background="#BC1C1C"/>
+
+                <RadioButton
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/quiz2option6"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="f. Jupitor"
+                    android:textSize="15dp"
+                    android:textColor="#FFF"
+                    android:textStyle="bold"
+
+                    android:background="#BC1C1C"/>
+
+                <RadioButton
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/quiz2option7"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="g. Pleasure"
+                    android:textSize="15dp"
+                    android:textColor="#FFF"
+                    android:textStyle="bold"
+
+                    android:background="#BC1C1C"/>
+
+                <RadioButton
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/quiz2option8"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="h. Access"
+                    android:textSize="15dp"
+                    android:textColor="#FFF"
+                    android:textStyle="bold"
+
+                    android:background="#BC1C1C"/>
+                <RadioButton
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/quiz2option9"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="i. Vespa"
+                    android:textSize="15dp"
+                    android:textColor="#FFF"
+                    android:textStyle="bold"
+
+                    android:background="#BC1C1C"/>
+
+
+            </RadioGroup>
+
+
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/button2"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/next1"
+            android:gravity="center"
+            android:onClick="btClick"
+            android:text="Next" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
